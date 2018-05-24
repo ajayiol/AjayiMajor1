@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.mnstate.bv9599fk.ajayimajor1.questions"
+    android:weightSum="1">
+
+    <SeekBar
+        android:id="@+id/seekBar4"
+        android:layout_width="284dp"
+        android:layout_height="76dp"
+        android:layout_column="1"
+        android:layout_row="0"
+        android:max="5"
+        android:progress="1" />
+
+    <TextView
+        android:id="@+id/txtQ2"
+        android:layout_width="344dp"
+        android:layout_height="63dp"
+        android:layout_column="0"
+        android:layout_row="1"
+        android:text="@string/strQ2"
+        android:textSize="18sp" />
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="301dp"
+        android:layout_height="67dp"
+        android:layout_column="1"
+        android:layout_row="1"
+        android:text="CheckBox" />
+
+    <TextView
+        android:id="@+id/txtQ3"
+        android:layout_width="343dp"
+        android:layout_height="72dp"
+        android:layout_column="0"
+        android:layout_row="2"
+        android:text="@string/strQ3"
+        android:textSize="18sp" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton4"
+        android:layout_width="231dp"
+        android:layout_height="80dp"
+        android:layout_column="1"
+        android:layout_row="2"
+        android:text="ToggleButton"
+        android:textOff="left"
+        android:textOn="right" />
+
+    <RadioGroup
+        android:layout_width="283dp"
+        android:layout_height="170dp" >
+
+        <RadioButton
+            android:id="@+id/rb1"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:text="@string/strClub1" />
+
+        <RadioButton
+            android:id="@+id/rb2"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:text="@string/strClub2" />
+
+        <RadioButton
+            android:id="@+id/rb3"
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:text="@string/strClub3" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/txtQ4"
+        android:layout_width="226dp"
+        android:layout_height="82dp"
+        android:layout_column="0"
+        android:layout_row="3"
+        android:text="@string/strQ4"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txtQ5"
+        android:layout_width="339dp"
+        android:layout_height="85dp"
+        android:text="@string/strQ5"
+        android:textSize="18sp" />
+
+    <Spinner
+        android:id="@+id/spinTeam"
+        android:layout_width="336dp"
+        android:layout_height="118dp"
+        android:layout_column="1"
+        android:layout_row="4" />
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="259dp"
+        android:layout_height="91dp"
+        android:layout_column="1"
+        android:layout_row="5"
+        android:onClick="mySubmitQuiz"
+        android:text="@string/strSubmit" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="344dp"
+        android:layout_height="81dp"
+        android:layout_column="0"
+        android:layout_row="0"
+        android:text="@string/strQ1"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txtValue"
+        android:layout_width="138dp"
+        android:layout_height="52dp"
+        android:layout_column="2"
+        android:layout_row="0"
+        android:text="1" />
+
+</GridLayout>

@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">AjayiMajor1</string>
+    <string name="title">Soccer Trivia</string>
+    <string name="strName">           Enter a name:</string>
+    <string name="btnStart">Start Quiz</string>
+    <string name="strTitleResult">RESULT!!</string>
+    <string name="strTellScore"> scored:</string>
+    <string name="strQ1">How many substitutes are allowed in a Pro game</string>
+    <string name="strQ2">Tick if soccer is played with a ball</string>
+    <string name="strQ3">Ronaldo plays with what foot</string>
+    <string name="strQ4">What teams play in la liga</string>
+    <string name="strClub1">Real Madrid</string>
+    <string name="strClub2">Chelsea</string>
+    <string name="strClub3">Juventus</string>
+    <string name="strQ5">How many players can play in a game at once</string>
+    <string name="strTeamNumber">Select Number</string>
+    <string name="strSubmit">Submit Quiz</string>
+    <string name="strHistory">View Brief History</string>
+    <string name="strRestart">Restart Quiz</string>
+    <string name="strTitleHistory">History Of Soccer</string>
+    <string name="strBack">Back</string>
+    <string-array name="team_number">
+        <item>"5"</item>
+        <item>"10"</item>
+        <item>"11"</item>
+    </string-array>
+</resources>

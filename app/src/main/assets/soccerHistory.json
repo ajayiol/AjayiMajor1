@@ -1,0 +1,52 @@
+{
+  "teamInfo":[
+    {
+      "club":"Real Marid",
+      "name":"Ronaldo",
+      "foot": "Right",
+      "number": "7"
+    },
+    {
+      "club":"Manchester united",
+      "name":"De Gea",
+      "foot": "Right",
+      "number": "1"
+    },
+    {
+      "club":"Chelsea",
+      "name":"Hazard",
+      "foot": "Right",
+      "number": "10"
+    },
+    {
+      "club":"Barcelona",
+      "name":"Messi",
+      "foot": "Left",
+      "number": "10"
+    },
+    {
+      "club":"Real Marid",
+      "name":"Modric",
+      "foot": "Right",
+      "number": "10"
+    },
+    {
+      "club":"Dormund",
+      "name":"Reus",
+      "foot": "Right",
+      "number": "11"
+    },
+    {
+      "club":"Real Marid",
+      "name":"Bale",
+      "foot": "Left",
+      "number": "11"
+    },
+    {
+      "club":"PSG",
+      "name":"Neymar",
+      "foot": "Right",
+      "number": "10"
+    }
+  ]
+}
